@@ -5,7 +5,9 @@ public class DoublyLinkedListDemo {
 		
 		DoublyLinkedList<Integer> sll = new DoublyLinkedList<>();
 		DoublyLinkedList<String> strings = new DoublyLinkedList<>();
-		
+		// use Strings
+		strings.append("bla");
+		// Use Integer
 		System.out.println(sll);
 		sll.append(5);
 		System.out.println(sll);

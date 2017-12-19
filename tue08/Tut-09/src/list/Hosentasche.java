@@ -1,5 +1,10 @@
 package list;
 
+/**
+ * An example class using generics
+ *
+ * @param <T> - What the Class stores.
+ */
 public class Hosentasche<T> {
 	
 	// left und right haben beide den gleichen Typ!

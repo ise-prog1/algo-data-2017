@@ -2,8 +2,13 @@ package interfaces;
 
 import java.util.Comparator;
 
+/**
+ * This class provides some Comparators for Car objects.
+ *
+ */
 public class CarComparator {
 	
+	// uses anonymous class
 	public static final Comparator<Car> NAME_YEAR = new Comparator<Car>() {
 
 		@Override
@@ -16,6 +21,7 @@ public class CarComparator {
 		}
 	};
 
+	// uses anonymous class
 	public static final Comparator<Car> NEWEST_FIRST = new Comparator<Car>() {
 
 		@Override
